@@ -1,6 +1,6 @@
 import axios from "axios";
-const BaseURL = "http://localhost:5000/api/v1/";
-// const BaseURL = "https://scripthunt-api.herokuapp.com/api/v1/";
+// const BaseURL = "http://localhost:5000/api/v1/";
+const BaseURL = "https://qrgen-api.herokuapp.com/api/v1/";
 
 const axiosHttp = axios.create({
   baseURL: BaseURL,
