@@ -1,5 +1,5 @@
-import React, { useReducer, useState, createContext } from "react";
-import contextReducer from "./contextReducer";
+import React, { createContext } from "react";
+// import contextReducer from "./contextReducer";
 // const initailState = [];
 
 export const QRGENContext = createContext();

@@ -255,13 +255,13 @@ export default function Register() {
               <div className="icon">
                 <i className="ic-mail text-white"></i>
               </div>
-              <p className="text-primary">
+              {/* <p className="text-primary">
                 Email us:{" "}
                 <a href="mailto:support@qrgen.com" className="font-weight-bold">
                   {" "}
                   support@qrgen.com
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
           <small className="mt-auto text-cool-gray-100 pt-2">

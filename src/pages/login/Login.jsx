@@ -217,6 +217,7 @@ export default function Login() {
               <p className="text-primary">
                 Email us:{" "}
                 <Link
+                  to="#"
                   // href="mailto:support@nchl.com.np"
                   className="font-weight-bold"
                 >

@@ -212,6 +212,7 @@ export default function SerPass() {
               <p className="text-primary">
                 Email us:{" "}
                 <Link
+                  to="#"
                   //  href="mailto:support@qrgen.com"
                   className="font-weight-bold"
                 >

@@ -2,16 +2,10 @@ import React, { useEffect, useState, useContext } from "react";
 import LeftSideBarIcon from "../../components/LeftSideBarIcon";
 import LeftSideBar from "../../components/LeftSideBar";
 import http from "./../../utils/http";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { QRGENContext } from "./../../context/context";
 import TopHeader from "../../components/TopHeader";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Navigate,
-  Outlet,
-} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 export default function Main() {
   const [qrGenerated, setQrGenerated] = useState(false);
@@ -68,7 +62,7 @@ export default function Main() {
         console.log(err);
         // notify.handleError(err);
       });
-  }, []);
+  });
 
   const logout = () => {
     localStorage.clear();
@@ -827,7 +821,7 @@ export default function Main() {
               <div className="tab-pane active">
                 <ul className="list list-divider list-hover">
                   <li className="align-vertical  justify-content-center creditorBorder">
-                    <a role="button">
+                    <Link role="button" to="#">
                       <div className="align-vertical ">
                         <i className="ic-add mr-2"></i>
                         <p>
@@ -836,7 +830,7 @@ export default function Main() {
                             : "Your QR Code is not activated"}
                         </p>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -858,12 +852,12 @@ export default function Main() {
                 <div className="tab-pane active">
                   <ul className="list list-divider list-hover">
                     <li className="align-vertical  justify-content-center creditorBorder">
-                      <a role="button">
+                      <Link role="button" tp="#">
                         <div className="align-vertical ">
                           <i className="ic-add mr-2"></i>
                           <p>Download your QR Code</p>
                         </div>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -890,11 +884,4 @@ export default function Main() {
       </div>
     </>
   );
-}
-
-function UsersIndex() {
-  return <div>sdvsd</div>;
-}
-function OwnUserProfile() {
-  return <div>sdvdfvdfvdfsd</div>;
 }

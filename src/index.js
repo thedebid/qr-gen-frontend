@@ -6,15 +6,7 @@ import App from "./App";
 import "bootstrap/dist/js/bootstrap.js";
 import reportWebVitals from "./reportWebVitals";
 import { QRGENProvider } from "./context/context";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Navigate,
-  Outlet,
-  useRoutes,
-  HashRouter,
-} from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 ReactDOM.render(
   <React.StrictMode>
     <QRGENProvider>
