@@ -23,7 +23,7 @@ export default function GeneratedQR(props) {
         console.log(err);
         // notify.handleError(err);
       });
-  }, []);
+  });
 
   return (
     <div className="ag-theme-alpine" style={{ height: 400 }}>

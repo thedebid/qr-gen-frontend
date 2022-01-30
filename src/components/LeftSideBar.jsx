@@ -92,9 +92,9 @@ export default function LeftSideBar(props) {
                 role="menuitem"
                 className="dropdown-item"
               >
-                <a href="mailto:support@nchl.com.np">
+                {/* <a href="mailto:support@nchl.com.np">
                   <i className="ic-mail"></i>support@nchl.com.np
-                </a>
+                </a> */}
               </button>
               <button
                 type="button"
