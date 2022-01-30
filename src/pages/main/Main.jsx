@@ -852,7 +852,7 @@ export default function Main() {
                 <div className="tab-pane active">
                   <ul className="list list-divider list-hover">
                     <li className="align-vertical  justify-content-center creditorBorder">
-                      <Link role="button" tp="#">
+                      <Link role="button" to="#">
                         <div className="align-vertical ">
                           <i className="ic-add mr-2"></i>
                           <p>Download your QR Code</p>
