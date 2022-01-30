@@ -9,7 +9,7 @@ export default function LeftSideBar(props) {
         </button>
       </div>
       <div className="app-flex-layout">
-        <div className="sidebar-logo" role="button">
+        <div classNam e="sidebar-logo" role="button">
           <img src="./static/media/newLogo.ed7f73c8.png" alt="" />
         </div>
 

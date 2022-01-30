@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function SideBarIcon() {
   return (
     <aside className="sidebar-icon">
@@ -13,19 +13,20 @@ export default function SideBarIcon() {
 
       <ul className="list sidebar-list">
         <li>
-          <a className="sidebar-link active" href="#/!">
+          <Link className="sidebar-link active" to="#">
             <i className="ic-home"></i>
-          </a>
+          </Link>
         </li>
         <li>
           <div className="dropright dropdown">
-            <a
+            <Link
               aria-haspopup="true"
               className="sidebar-link  "
               aria-expanded="false"
+              to="#"
             >
               <i className="ic-bank"></i>
-            </a>
+            </Link>
             <div
               tabIndex="-1"
               role="menu"
@@ -34,14 +35,14 @@ export default function SideBarIcon() {
             >
               <ul className="list sidebar-list">
                 <li>
-                  <a className="sidebar-link " href="#/!">
+                  <Link className="sidebar-link " to="#">
                     <span>Link Account</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="sidebar-link " href="#/!">
+                  <Link className="sidebar-link " to="#">
                     <span>Manage Accounts</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -49,13 +50,14 @@ export default function SideBarIcon() {
         </li>
         <li>
           <div className="dropright dropdown">
-            <a
+            <Link
               aria-haspopup="true"
               className="sidebar-link  "
               aria-expanded="false"
+              to="#"
             >
               <i className="ic-star"></i>
-            </a>
+            </Link>
             <div
               tabIndex="-1"
               role="menu"
@@ -64,14 +66,14 @@ export default function SideBarIcon() {
             >
               <ul className="list sidebar-list">
                 <li>
-                  <a className="sidebar-link " href="#/!">
+                  <Link className="sidebar-link " to="#">
                     <span>Add Favorite</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="sidebar-link " href="#/!">
+                  <Link className="sidebar-link " to="#">
                     <span>List Favorite</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -79,35 +81,35 @@ export default function SideBarIcon() {
         </li>
         <div className="divider"></div>
         <li>
-          <a className="sidebar-link " href="#/!">
+          <Link className="sidebar-link " to="#">
             <i className="ic-wallet"></i>
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="sidebar-link " href="#/!">
+          <Link className="sidebar-link " to="#">
             <i className="ic-bulb"></i>
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="sidebar-link " href="#/!">
+          <Link className="sidebar-link " to="#">
             <i className="ic-finance"></i>
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="sidebar-link " href="#/!">
+          <Link className="sidebar-link " to="#">
             <i className="ic-creditor"></i>
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="sidebar-link " href="#/!">
+          <Link className="sidebar-link " to="#">
             <i className="ic-donate"></i>
-          </a>
+          </Link>
         </li>
         <div className="divider"></div>
         <li>
-          <a className="sidebar-link " href="#/!">
+          <Link className="sidebar-link " to="#">
             <i className="ic-history"></i>
-          </a>
+          </Link>
         </li>
       </ul>
     </aside>
