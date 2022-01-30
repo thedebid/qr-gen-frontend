@@ -21,7 +21,7 @@ export default function LeftSideBar(props) {
             </Link>
           </li>
           <li>
-            <Link className="sidebar-link" to="generatedqr">
+            <Link className="sidebar-link" to="/generatedqr">
               <i className="ic-home"></i>
               <span>Generated QR</span>
             </Link>
@@ -67,6 +67,7 @@ export default function LeftSideBar(props) {
         <div className="sidebar-footer">
           <div className="dropup dropdown">
             <Link
+              to="#"
               id="UncontrolledTooltipExample"
               role="button"
               aria-haspopup="true"
