@@ -1,4 +1,12 @@
-.App {
+#root {
+  height: 100%;
+}
+.errorText {
+  color: #c13f51;
+  font-size: 12px;
+  margin: 5px;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +43,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
